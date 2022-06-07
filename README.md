@@ -33,15 +33,15 @@
 ## Пример
 Допустим, вы добавляете ваши транзакции в следующей последовательности вызовов:
 ``` json
-- { "payer": "DANNON", "points": 1000, "timestamp": "2021-11-02T14:00:00Z", "transaction_id": "1b69658b-beba-4dcb-acb3-b007b52c303d"}
+{ "payer": "DANNON", "points": 1000, "timestamp": "2021-11-02T14:00:00Z", "transaction_id": "1b69658b-beba-4dcb-acb3-b007b52c303d"}
 
-- { "payer": "UNILEVER", "points": 200, "timestamp": "2021-10-31T11:00:00Z", "transaction_id": "ef57e101-a177-4c02-898e-86fcc888380f" }
+{ "payer": "UNILEVER", "points": 200, "timestamp": "2021-10-31T11:00:00Z", "transaction_id": "ef57e101-a177-4c02-898e-86fcc888380f" }
 
-- { "payer": "DANNON", "points": -200, "timestamp": "2021-10-31T15:00:00Z", "transaction_id": "fcfedc80-c6e7-4a87-a725-9ffb778ed748" }
+{ "payer": "DANNON", "points": -200, "timestamp": "2021-10-31T15:00:00Z", "transaction_id": "fcfedc80-c6e7-4a87-a725-9ffb778ed748" }
 
-- { "payer": "MILLER COORS", "points": 10000, "timestamp": "2021-11-01T14:00:00Z", "transaction_id": "b5560931-6036-47f4-b460-f688cfebe6ce" }
+{ "payer": "MILLER COORS", "points": 10000, "timestamp": "2021-11-01T14:00:00Z", "transaction_id": "b5560931-6036-47f4-b460-f688cfebe6ce" }
 
-- { "payer": "DANNON", "points": 300, "timestamp": "2021-10-31T10:00:00Z", "transaction_id": "9293462a-957c-4dcb-b1e0-18299575288e" }
+{ "payer": "DANNON", "points": 300, "timestamp": "2021-10-31T10:00:00Z", "transaction_id": "9293462a-957c-4dcb-b1e0-18299575288e" }
 ```
 ​
 Затем вы делаете расход своих бонусов:
